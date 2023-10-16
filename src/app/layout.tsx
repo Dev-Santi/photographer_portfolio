@@ -1,6 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { hkGrotesk } from "@/fonts/fonts";
+import Contact from "@/components/Contact";
 
 export const metadata: Metadata = {
   title: "Alicia Doe",
@@ -14,7 +15,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body className={hkGrotesk.className}>{children}</body>
+      <body className={hkGrotesk.className}>
+        {children}
+        <Contact />
+      </body>
     </html>
   );
 }

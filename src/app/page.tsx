@@ -24,7 +24,6 @@ export default function Home() {
         <div className='bg-cream h-[1px] w-full'></div>
         <Projects />
       </main>
-      <Contact />
     </>
   );
 }

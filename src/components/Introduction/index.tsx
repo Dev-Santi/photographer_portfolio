@@ -21,17 +21,14 @@ export default function Introduction() {
         <div>
           <h2>Introducción</h2>
           <p className={poppins.className}>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio
-            consectetur dolore dolorum culpa? Blanditiis aperiam repellat
-            corporis numquam animi! Doloribus, voluptates accusamus adipisci
-            incidunt eum saepe repellat maxime animi minus.
+            Cada fotografía cuenta una historia única, una narrativa congelada
+            en el tiempo que evoca emociones, captura la belleza y celebra la
+            vida en todas sus formas.
           </p>
           <br />
           <p className={poppins.className}>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita
-            tempore reprehenderit, et eum dolores maiores beatae sapiente dicta
-            cumque, quis nisi illo? Nam iste eligendi vero totam consequatur
-            quis excepturi!
+            Soy {'""'}, y te invito a explorar un mundo lleno de momentos
+            preciosos, paisajes inspiradores y retratos que reflejan su esencia.
           </p>
         </div>
       </div>

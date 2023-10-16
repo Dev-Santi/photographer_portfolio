@@ -9,17 +9,20 @@ export default function Education() {
         <div className='mb-16'>
           <Tag styles='bg-darkCream mb-10'>Facultad de Artes || UDELAR</Tag>
           <p className='md:max-w-[35rem]'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aliquam
-            quibusdam nihil doloribus voluptatibus iure in alias deleniti eos
-            reiciendis architecto labore autem.
+            Se me ha brindado de una base sólida para explorar mi creatividad y
+            expresión artística, permitiéndome llevar a cabo proyectos
+            innovadores y desafiantes que han recibido reconocimiento en varios
+            eventos.
           </p>
         </div>
         <div>
           <Tag styles='bg-black mb-10'>Escuela Uruguaya de Fotografía</Tag>
           <p className='md:max-w-[35rem]'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aliquam
-            quibusdam nihil doloribus voluptatibus iure in alias deleniti eos
-            reiciendis architecto labore autem.
+            Adquirí una comprensión profunda de los fundamentos técnicos y
+            artísticos de la fotografía. Aprendí a dominar aspectos clave como
+            la exposición, el enfoque, la composición y la iluminación, lo que
+            me ha permitido capturar imágenes impactantes y visualmente
+            atractivas.
           </p>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import Tag from "@/components/Education/Tag";
+import Galery from "@/components/Galeria";
 import works from "@/works";
 import Image from "next/image";
 import Link from "next/link";
@@ -18,7 +19,7 @@ export default function page({ params }: props) {
       <main className='flex flex-col items-start'>
         <Link
           scroll={false}
-          className='flex items-center gap-4 font-medium text-lg my-5'
+          className='flex items-center gap-4 font-medium text-lg my-5 hover:text-blue-400'
           href='/'
         >
           <BsArrowLeft />
@@ -30,13 +31,13 @@ export default function page({ params }: props) {
             <div className='mb-16'>
               <Tag styles='bg-darkCream mb-10'>{work.tag}</Tag>
               <p className='md:max-w-[35rem]'>{work.longDescription}</p>
-              <Link href={work.seeMore}>Ver más</Link>
             </div>
           </div>
           <div className='md:max-w-[28rem]'>
             <Image src={work.image} alt={work.alt} width={800} height={800} />
           </div>
         </section>
+        <Galery />
       </main>
     );
   } else {

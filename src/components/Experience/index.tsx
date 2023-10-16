@@ -11,8 +11,8 @@ export default function Experience() {
             Nombre de la empresa
           </h4>
           <p className='mb-4 max-w-[16rem]'>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
-            consequatur! Totam ea harum.
+            Experiencia en la creación de sitios web visualmente atractivos y
+            funcionales.
           </p>
           <div>
             <Image
@@ -29,8 +29,8 @@ export default function Experience() {
             Nombre de la empresa
           </h4>
           <p className='mb-4 max-w-[16rem]'>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
-            consequatur! Totam ea harum.
+            He perfeccionado mi capacidad para comunicar emociones a través de
+            imágenes.
           </p>
           <div>
             <Image
@@ -46,9 +46,9 @@ export default function Experience() {
           <h4 className='mt-[-2.5rem] font-extralight mb-5'>
             Nombre de la empresa
           </h4>
-          <p className='mb-4 max-w-[16rem]'>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
-            consequatur! Totam ea harum.
+          <p className='mb-4 max-w-[18rem]'>
+            He trabajado en diversos proyectos, tanto retoque de retratos como
+            manipulación creativa de fotografías.
           </p>
           <div>
             <Image

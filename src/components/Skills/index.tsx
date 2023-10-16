@@ -3,25 +3,28 @@ import SkillCard from "./SkillCard";
 const skills = [
   {
     title: "Diseño Gráfico",
-    text: `Lorem ipsum dolor sit, corporis labore nobis.`,
+    text: `Creación de soluciones visuales para transmitir mensajes específicos.`,
     img: { src: "/skills/design.jpg", alt: "Diseñadora trabajando" },
   },
   {
     title: "Fotografía",
-    text: `Lorem ipsum dolor sit, unde nulla corporis labore nobis.`,
+    text: `Poder transmitir emociones y contar historias visualmente impactantes que pueden resonar con la audiencia.`,
     img: { src: "/skills/photo.jpg", alt: "Fotógrafo trabajando" },
   },
 
   {
     title: "Marketing Digital",
-    text: `Lorem ipsum dolor sit, unde nulla corporis labore nobis.`,
-    img: { src: "/skills/marketing.jpg", alt: "Fotógrafo trabajando" },
+    text: `Promoción de productos, marcas o servicios utilizando canales digitales y estrategias online.`,
+    img: {
+      src: "/skills/marketing.jpg",
+      alt: "Papeles con graficas y números",
+    },
   },
 
   {
-    title: "Edición de Video",
-    text: `Lorem ipsum dolor sit, unde nulla corporis labore nobis.`,
-    img: { src: "/skills/video.jpg", alt: "Fotógrafo trabajando" },
+    title: "Edición",
+    text: `Proceso de perfeccionar y mejorar imágenes digitales utilizando software especializado`,
+    img: { src: "/skills/video.jpg", alt: "Captura de un programa de edicion" },
   },
 ];
 
