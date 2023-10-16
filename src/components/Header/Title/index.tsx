@@ -5,6 +5,7 @@ export default function Title() {
     <div className='flex flex-col my-20 items-center md:flex-row md:justify-center'>
       <div className='max-w-[30rem] translate-x-[-2.4rem] md:translate-x-0'>
         <Image
+          priority={true}
           src='/profile_picture.png'
           alt='Foto en blanco y negro en la que se muestra el rostro de Alicia Larrosa.'
           width={800}
