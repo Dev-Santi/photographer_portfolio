@@ -4,19 +4,19 @@ const skills = [
   {
     title: "Diseño Gráfico",
     text: `Creación de soluciones visuales para transmitir mensajes específicos.`,
-    img: { src: "/skills/design.jpg", alt: "Diseñadora trabajando" },
+    img: { src: "/design_skill.jpg", alt: "Diseñadora trabajando" },
   },
   {
     title: "Fotografía",
     text: `Poder transmitir emociones y contar historias visualmente impactantes que pueden resonar con la audiencia.`,
-    img: { src: "/skills/photo.jpg", alt: "Fotógrafo trabajando" },
+    img: { src: "/photo_skill.jpg", alt: "Fotógrafo trabajando" },
   },
 
   {
     title: "Marketing Digital",
     text: `Promoción de productos, marcas o servicios utilizando canales digitales y estrategias online.`,
     img: {
-      src: "/skills/marketing.jpg",
+      src: "/marketing.jpg",
       alt: "Papeles con graficas y números",
     },
   },
@@ -24,7 +24,7 @@ const skills = [
   {
     title: "Edición",
     text: `Proceso de perfeccionar y mejorar imágenes digitales utilizando software especializado`,
-    img: { src: "/skills/video.jpg", alt: "Captura de un programa de edicion" },
+    img: { src: "/video.jpg", alt: "Captura de un programa de edicion" },
   },
 ];
 

@@ -16,7 +16,7 @@ export default function Experience() {
           </p>
           <div>
             <Image
-              src='/experience/design.jpg'
+              src='/design.jpg'
               alt='Fotografía de una persona frente a una pc trabajando en un diseño.'
               width={300}
               height={300}
@@ -34,8 +34,8 @@ export default function Experience() {
           </p>
           <div>
             <Image
-              src='/experience/photo.jpg'
-              alt='Fotografía de una persona frente a una pc trabajando en un diseño.'
+              src='/photo.jpg'
+              alt='Imagen de alguien tomandose una foto.'
               width={300}
               height={300}
             />
@@ -52,8 +52,8 @@ export default function Experience() {
           </p>
           <div>
             <Image
-              src='/experience/edit.jpg'
-              alt='Fotografía de una persona frente a una pc trabajando en un diseño.'
+              src='/edit.jpg'
+              alt='Imagen de un programa de edicion.'
               width={300}
               height={300}
             />
