@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       colors: {
         cream: "var(--cream-clr)",
+        darkCream: "var(--cream-dark-clr)",
         grey: "var(--grey-clr)",
       },
     },

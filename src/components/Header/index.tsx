@@ -15,11 +15,10 @@ export default function Header() {
       <div className='w-full flex flex-col items-start md:flex-row-reverse justify-between md:items-center translate-x-[1rem]'>
         <Decoration />
         <Link
-          target='_blank'
-          className='tracking-widest text-xl mt-12 xl:mt-0 w-fit hover:text-blue-500 hover:underline'
-          href='https://www.flickr.com/'
+          className='border-2 border-black p-2 tracking-widest text-xl mt-12 xl:mt-0 w-fit hover:bg-blue-400'
+          href='#works'
         >
-          www.flikr.com
+          Mis trabajos
         </Link>
       </div>
     </header>

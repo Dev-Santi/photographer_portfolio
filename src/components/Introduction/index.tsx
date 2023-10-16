@@ -4,7 +4,7 @@ import { poppins } from "@/fonts/fonts";
 export default function Introduction() {
   return (
     <section className='flex flex-col md:flex-row md:gap-5 md:items-center'>
-      <div className='ml-[-1rem] mr-[-1rem] mb-10 md:mr-0'>
+      <div className='mb-10 mr-5'>
         <Image
           src='/intro_picture.jpg'
           alt='Foto de olas rompiendo en la playa en tono sepia.'
