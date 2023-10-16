@@ -4,7 +4,7 @@ import { hkGrotesk } from "@/fonts/fonts";
 import Contact from "@/components/Contact";
 
 export const metadata: Metadata = {
-  title: "Alicia Doe",
+  title: "Mi nombre | Fotógrafa",
   description: "Portafolio web de demostración para fotógrafos",
 };
 
