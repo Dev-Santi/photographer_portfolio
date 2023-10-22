@@ -7,7 +7,9 @@ export default function Contact() {
       <footer className='bg-cream px-5 py-16 xl:w-[99vw]'>
         <div className='max-w-[90rem] mx-auto'>
           <div className='flex justify-between mb-10'>
-            <h2 className='uppercase'>¡Trabajemos juntos!</h2>
+            <h2 className='uppercase text-2xl md:text-4xl'>
+              ¡Trabajemos juntos!
+            </h2>
             <div className='hidden md:flex justify-end items-center mb-10'>
               <div className='w-36 h-5 bg-grey'></div>
               <div className='w-40 h-[2px] bg-black'></div>
@@ -29,7 +31,7 @@ export default function Contact() {
                 href={"#"}
               >
                 {" "}
-                <AiTwotoneMail className={"text-3xl"} />
+                <AiTwotoneMail className={"text-3xl min-w-[1.8rem]"} />
                 hola@micorreopersonalizado.com
               </Link>
             </li>
@@ -38,7 +40,7 @@ export default function Contact() {
                 className='flex gap-2 items-center text-lg transition-all hover:text-blue-400'
                 href={"#"}
               >
-                <AiFillInstagram className={"text-3xl"} />
+                <AiFillInstagram className={"text-3xl min-w-[1.8rem]"} />
                 @miInstagramProfesional
               </Link>
             </li>
