@@ -3,24 +3,24 @@ import Link from "next/link";
 import Title from "./Title";
 import Decoration from "./Decoration";
 import "animate.css";
+import SeeGalery from "../SeeGalery";
 
 export default function Header() {
   return (
     <header className='xl:h-screen flex flex-col justify-between'>
       <span
-        className={`${poppins.className} text-right text-xl font-extralight mb-10 lg:text-2xl lg:m-10`}
+        className={`${poppins.className} text-right mt-4 text-xl font-extralight mb-10 lg:text-2xl lg:m-10`}
       >
-        Tu nombre aquí
+        <input
+          className='bg-transparent w-[18rem] p-2'
+          type='text'
+          placeholder='Tu nombre aquí'
+        />
       </span>
       <Title />
       <div className='w-full flex flex-col items-center md:flex-row-reverse justify-between md:items-start translate-x-[1rem]'>
         <Decoration />
-        <Link
-          className='border-2 animate__animated animate__pulse animate__infinite border-black p-2 tracking-widest text-xl mt-12 xl:mt-0 w-fit hover:bg-blue-400'
-          href='#works'
-        >
-          Ver galerías
-        </Link>
+        <SeeGalery />
       </div>
     </header>
   );

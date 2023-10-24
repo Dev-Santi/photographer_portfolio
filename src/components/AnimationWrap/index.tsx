@@ -6,18 +6,22 @@ import { useEffect } from "react";
 
 export default function AnimationWrap({
   children,
-  animation,
   className,
+  alternative,
 }: {
   children: React.ReactNode;
-  animation: string;
   className?: string;
+  alternative?: boolean;
 }) {
   useEffect(() => {
     AOS.init();
   }, []);
   return (
-    <div className={"" + className} data-aos={animation}>
+    <div
+      className={"" + className}
+      data-aos-duration='800'
+      data-aos={alternative ? "zoom-in-right" : "fade-up"}
+    >
       {children}
     </div>
   );

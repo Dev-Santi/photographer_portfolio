@@ -36,22 +36,23 @@ export default function Skills() {
         <div className='w-36 h-5 bg-grey'></div>
       </div>
 
-      <h2>Habilidades</h2>
-      <AnimationWrap
-        animation='fade-up'
-        className='flex flex-wrap gap-10 justify-between'
-      >
+      <AnimationWrap>
+        <h2>Habilidades</h2>
+      </AnimationWrap>
+
+      <div className='flex flex-wrap gap-10 justify-between'>
         {skills.map((skill) => {
           return (
-            <SkillCard
-              key={skill.title}
-              title={skill.title}
-              text={skill.text}
-              img={skill.img}
-            />
+            <AnimationWrap key={skill.title}>
+              <SkillCard
+                title={skill.title}
+                text={skill.text}
+                img={skill.img}
+              />
+            </AnimationWrap>
           );
         })}
-      </AnimationWrap>
+      </div>
     </section>
   );
 }
