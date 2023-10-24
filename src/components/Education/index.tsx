@@ -1,10 +1,11 @@
 import Image from "next/image";
 import Tag from "./Tag";
+import AnimationWrap from "../AnimationWrap";
 
 export default function Education() {
   return (
     <section className='flex flex-col-reverse md:flex-row-reverse gap-10 items-center justify-between'>
-      <div>
+      <AnimationWrap animation='fade-up'>
         <h2>Educación</h2>
         <div className='mb-16'>
           <Tag styles='bg-darkCream mb-10'>Facultad de Artes || UDELAR</Tag>
@@ -25,7 +26,7 @@ export default function Education() {
             atractivas.
           </p>
         </div>
-      </div>
+      </AnimationWrap>
       <div className='md:max-w-[28rem]'>
         <Image
           src='/education_picture.jpg'

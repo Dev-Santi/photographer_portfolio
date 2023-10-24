@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { poppins } from "@/fonts/fonts";
+import AnimationWrap from "../AnimationWrap";
 
 export default function Introduction() {
   return (
@@ -13,7 +14,10 @@ export default function Introduction() {
         />
         <div className='hidden md:block aspect-square bg-cream'></div>
       </div>
-      <div className='flex flex-col justify-between md:h-[20rem]'>
+      <AnimationWrap
+        animation='fade-up'
+        className='flex flex-col justify-between md:h-[20rem]'
+      >
         <div className='hidden md:flex justify-end items-center mr-[-1rem] mb-10'>
           <div className='w-36 h-5 bg-grey'></div>
           <div className='w-40 h-[2px] bg-black'></div>
@@ -31,7 +35,7 @@ export default function Introduction() {
             preciosos, paisajes inspiradores y retratos que reflejan su esencia.
           </p>
         </div>
-      </div>
+      </AnimationWrap>
     </section>
   );
 }

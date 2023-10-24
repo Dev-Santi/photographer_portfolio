@@ -2,6 +2,7 @@ import { poppins } from "@/fonts/fonts";
 import Link from "next/link";
 import Title from "./Title";
 import Decoration from "./Decoration";
+import "animate.css";
 
 export default function Header() {
   return (
@@ -15,10 +16,10 @@ export default function Header() {
       <div className='w-full flex flex-col items-center md:flex-row-reverse justify-between md:items-start translate-x-[1rem]'>
         <Decoration />
         <Link
-          className='border-2 border-black p-2 tracking-widest text-xl mt-12 xl:mt-0 w-fit hover:bg-blue-400'
+          className='border-2 animate__animated animate__pulse animate__infinite border-black p-2 tracking-widest text-xl mt-12 xl:mt-0 w-fit hover:bg-blue-400'
           href='#works'
         >
-          Mis trabajos
+          Ver galerías
         </Link>
       </div>
     </header>

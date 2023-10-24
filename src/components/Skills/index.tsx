@@ -1,3 +1,4 @@
+import AnimationWrap from "../AnimationWrap";
 import SkillCard from "./SkillCard";
 
 const skills = [
@@ -36,7 +37,10 @@ export default function Skills() {
       </div>
 
       <h2>Habilidades</h2>
-      <div className='flex flex-wrap gap-10 justify-between'>
+      <AnimationWrap
+        animation='fade-up'
+        className='flex flex-wrap gap-10 justify-between'
+      >
         {skills.map((skill) => {
           return (
             <SkillCard
@@ -47,7 +51,7 @@ export default function Skills() {
             />
           );
         })}
-      </div>
+      </AnimationWrap>
     </section>
   );
 }

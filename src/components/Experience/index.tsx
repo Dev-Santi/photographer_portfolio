@@ -1,10 +1,14 @@
 import Image from "next/image";
+import AnimationWrap from "../AnimationWrap";
 
 export default function Experience() {
   return (
     <section>
       <h2>Experiencia</h2>
-      <div className='flex flex-wrap justify-between gap-10'>
+      <AnimationWrap
+        animation='fade-up'
+        className='flex flex-wrap justify-between gap-10'
+      >
         <div className='max-w-[25rem] p-2'>
           <h3>Diseñadora web</h3>
           <h4 className='mt-[-2.5rem] font-extralight mb-5'>
@@ -59,7 +63,7 @@ export default function Experience() {
             />
           </div>
         </div>
-      </div>
+      </AnimationWrap>
     </section>
   );
 }

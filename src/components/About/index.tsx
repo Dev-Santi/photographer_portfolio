@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { poppins } from "@/fonts/fonts";
+import AnimationWrap from "../AnimationWrap";
 
 export default function About() {
   return (
@@ -13,7 +14,7 @@ export default function About() {
             height={800}
           />
         </div>
-        <div>
+        <AnimationWrap animation='fade-up'>
           <h2>Sobre mí</h2>
           <p className={poppins.className + " " + "max-w-[35rem]"}>
             Apasionado fotógrafo/a obsesionado/a con capturar la belleza efímera
@@ -25,7 +26,7 @@ export default function About() {
             transmitir una historia auténtica y dejar una impresión duradera en
             cada imagen.
           </p>
-        </div>
+        </AnimationWrap>
       </section>
     </>
   );
