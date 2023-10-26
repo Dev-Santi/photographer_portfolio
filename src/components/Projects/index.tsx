@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import works from "@/works";
 import AnimationWrap from "../AnimationWrap";
+import { FiExternalLink } from "react-icons/fi";
 import "animate.css";
 
 export default function Projects() {
@@ -19,6 +20,7 @@ export default function Projects() {
           return (
             <AnimationWrap key={work.link}>
               <div className='relative cursor-pointer border-2 border-blue-300 p-2'>
+                <FiExternalLink className='text-white text-3xl absolute' />
                 <Link href={work.link}>
                   <Image src={work.image} alt='' width={300} height={300} />
                   <div className='absolute inset-0 flex flex-col p-4 text-center items-center justify-center opacity-0 transition-all hover:backdrop-blur-[1px] hover:bg-[#000000a9] hover:opacity-100 text-white'>

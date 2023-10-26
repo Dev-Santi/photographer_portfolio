@@ -12,7 +12,7 @@ export default function Header() {
         className={`${poppins.className} text-right mt-4 text-xl font-extralight mb-10 lg:text-2xl lg:m-10`}
       >
         <input
-          className='bg-transparent w-[18rem] p-2'
+          className='bg-transparent font-medium text-blue-500 p-2 placeholder:text-center w-full text-center md:w-[18rem]'
           type='text'
           placeholder='Tu nombre aquí'
         />
