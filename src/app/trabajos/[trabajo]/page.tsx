@@ -18,9 +18,8 @@ export default function page({ params }: props) {
     return (
       <main className='flex flex-col items-start'>
         <Link
-          scroll={false}
           className='flex items-center gap-4 font-medium text-lg my-5 hover:text-blue-400'
-          href='/'
+          href='/#works'
         >
           <BsArrowLeft />
           Volver
@@ -43,10 +42,7 @@ export default function page({ params }: props) {
   } else {
     return (
       <>
-        <Link
-          className='flex items-center gap-4 font-medium text-lg my-5'
-          href='/'
-        >
+        <Link className='flex items-center gap-4 font-medium text-lg my-5' href='/'>
           <BsArrowLeft />
           Volver
         </Link>
